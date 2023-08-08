@@ -1,4 +1,4 @@
-**Safety Helmet Detection** is a dataset for object detection task. Possible applications of the dataset could be in the safety industry. 
+**Safety Helmet Detection** is a dataset for an object detection task. Possible applications of the dataset could be in the safety and surveillance industries. 
 
 The dataset consists of 5000 images with 25502 labeled objects belonging to 3 different classes including *helmet*, *head*, and *person*.
 
