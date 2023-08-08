@@ -20,7 +20,10 @@ PROJECT_NAME_FULL: str = "Safety Helmet Detection"
 # * After uploading to instance ##
 ##################################
 LICENSE: License = License.CC0_1_0()
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Safety(is_used=False)]
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [
+    Industry.Safety(is_used=False),
+    Industry.Surveillance(is_used=False),
+]
 CATEGORY: Category = Category.Safety(extra=Category.Surveillance())
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection()]
@@ -47,7 +50,11 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 ] = "https://www.kaggle.com/datasets/andrewmvd/hard-hat-detection/download?datasetVersionNumber=1"
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "helmet": [230, 25, 75],
+    "head": [0, 0, 128],
+    "person": [240, 50, 230],
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 PAPER: Optional[str] = None
