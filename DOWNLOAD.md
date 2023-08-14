@@ -1,6 +1,6 @@
 Dataset **Safety Helmet Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/4/C/o2/UUUqfWeuVUhMJwRhHAOm8Hg1vuNemHW18jK9qaRZJL5vmQDuRYJIOkYlRGwD8FzY2V6HP2eobwwW80NCDFcO5lIL7X2NJMicvMA15UvEkypFGdFFMmb0zkU9lIQQ.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/d/H/0x/OU70FjGndQqnKNntXAgr5cLSKsw5CmCO1Ldsv5rhZO4ynn1r72wOeFIbl2SFzYTSybXWLu1L5idI9BV5J16DpYswYk9f2bu2ZnMDX2IXYEt8QS6oktSpO5JwUI4I.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
@@ -15,4 +15,4 @@ dtools.download(dataset='Safety Helmet Detection', dst_dir='~/dataset-ninja/')
 ```
 Make sure not to overlook the [python code example](https://developer.supervisely.com/getting-started/python-sdk-tutorials/iterate-over-a-local-project) available on the Supervisely Developer Portal. It will give you a clear idea of how to effortlessly work with the downloaded dataset.
 
-The data in original format can be [downloaded here](https://www.kaggle.com/datasets/andrewmvd/hard-hat-detection/download?datasetVersionNumber=1)
+The data in original format can be [downloaded here](https://www.kaggle.com/datasets/andrewmvd/hard-hat-detection/download?datasetVersionNumber=1).
