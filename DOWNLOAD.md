@@ -1,6 +1,6 @@
 Dataset **Safety Helmet Detection** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/g/M/nj/gXejam7ZvC3xLNg3aTLJEOcmNzY9VfPaGSn8c5lieZd3J1eDWUf9AOwxCvICmx5qs5cP6cqLubZBciQM7CWZjsAApHv1r8IhetV34lBuvSeY7N32y2afDH4dJZV4.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/Y/R/6q/Z7pqUp9Cafh2oii50bADaauH2hGdjrdkMMzc49fGhx7ziTPY5tnHXfjcQRjFBBLnteN7cZEHPdZ4xWL7raIH3ub0iXIPUI88hYTj13Sv4uy7clA9DZpZK1XGjUg3.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
